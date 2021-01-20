@@ -32,7 +32,7 @@
     "babel-types": "^6.26.0",
     "babylon": "^6.18.0",
     "chalk": "^2.3.2",
-    "chokidar": "^2.0.3",
+    "chokidar": "^2.1.8",
     "commander": "^2.15.0",
     "cross-spawn": "^6.0.5",
     "css-to-react-native-transform": "^1.4.0",
