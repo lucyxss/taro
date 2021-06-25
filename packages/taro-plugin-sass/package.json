@@ -16,6 +16,6 @@
   "author": "luckyadam",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.8.3"
+    "node-sass": "^6.0.1"
   }
 }
