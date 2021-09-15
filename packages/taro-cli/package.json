@@ -38,7 +38,7 @@
     "css-to-react-native-transform": "^1.4.0",
     "fs-extra": "^5.0.0",
     "glob": "^7.1.2",
-    "inquirer": "^5.2.0",
+    "inquirer": "^7.0.5",
     "klaw": "^2.1.1",
     "latest-version": "^4.0.0",
     "lodash": "^4.17.5",
