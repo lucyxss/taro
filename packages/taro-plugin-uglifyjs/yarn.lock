@@ -2,17 +2,7 @@
 # yarn lockfile v1
 
 
-commander@~2.15.0:
-  version "2.15.1"
-  resolved "https://registry.npmjs.org/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
-
-source-map@~0.6.1:
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
-
-uglify-js@^3.3.24:
-  version "3.3.24"
-  resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-3.3.24.tgz#abeae7690c602ebd006f4567387a0c0c333bdc0d"
-  dependencies:
-    commander "~2.15.0"
-    source-map "~0.6.1"
+uglify-js@^3.14.3:
+  version "3.14.3"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.14.3.tgz#c0f25dfea1e8e5323eccf59610be08b6043c15cf"
+  integrity sha512-mic3aOdiq01DuSVx0TseaEzMIVqebMZ0Z3vaeDhFEh9bsc24hV1TFvN74reA2vs08D0ZWfNjAcJ3UbVLaBss+g==
