@@ -16,6 +16,6 @@
   "author": "luckyadam",
   "license": "MIT",
   "dependencies": {
-    "uglify-js": "^3.3.24"
+    "uglify-js": "^3.14.3"
   }
 }
