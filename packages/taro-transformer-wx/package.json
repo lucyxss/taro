@@ -18,7 +18,9 @@
     "test": "jest",
     "dev": "tsc -w --pretty",
     "lint": "tslint",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "O2Team",
   "license": "MIT",
@@ -43,7 +45,7 @@
   },
   "dependencies": {
     "@babel/code-frame": "^7.0.0-beta.44",
-    "@babel/core": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0",
     "@babel/plugin-transform-flow-strip-types": "^7.0.0-beta.47",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -51,7 +53,8 @@
     "babel-traverse": "^6.26.0",
     "babel-types": "^6.26.0",
     "html": "^1.0.0",
-    "lodash": "^4.17.5"
+    "lodash": "^4.17.21",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@tarojs/taro": "0.0.69",
@@ -76,5 +79,6 @@
   "bugs": {
     "url": "https://github.com/NervJS/taro/issues"
   },
-  "homepage": "https://github.com/NervJS/taro#readme"
+  "homepage": "https://github.com/NervJS/taro#readme",
+  "snyk": true
 }
