@@ -1,0 +1,59 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - vinyl-fs > glob-stream > extend:
+        patched: '2022-10-07T22:19:51.406Z'
+  SNYK-JS-LODASH-567746:
+    - babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-generator > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-traverse > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-template > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - inquirer > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-generator > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-template > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-generator > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-traverse > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-template > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-register > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T22:19:51.406Z'
