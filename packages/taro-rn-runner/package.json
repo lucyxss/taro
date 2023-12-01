@@ -33,8 +33,8 @@
     "path-exists": "^3.0.0",
     "progress": "^2.0.0",
     "qrcode-terminal": "^0.11.0",
-    "rimraf": "^2.6.1",
-    "xdl": "48.1.4"
+    "rimraf": "^4.0.0",
+    "xdl": "59.0.26"
   },
   "devDependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
