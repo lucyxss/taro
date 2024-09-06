@@ -16,6 +16,6 @@
   "author": "luckyadam",
   "license": "MIT",
   "dependencies": {
-    "stylus": "^0.54.5"
+    "stylus": "^0.54.8"
   }
 }
